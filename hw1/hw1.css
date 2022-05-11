@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+@media only screen and (min-width: 1280px) {
+    p{
+        color:yellow;
+        font-size: 70px;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 1280px) {
+    p{
+        color:gray;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 640px){
+    p{ 
+        color:green;
+        font-size: 10px;
+    }
+}

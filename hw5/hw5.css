@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(235, 235, 239);
+}
+.Station{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    left: 60px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px black solid;
+    border-radius: 40px;
+    margin-right: 15px;
+    margin-top: 50px;
+    font-size: 15px;
+    color:black;
+    background-color:rgba(43, 89, 109, 0.943)
+}
+.Arrow {
+    width: 0;
+    height: 0;
+    border-top: 30px solid #3300cc;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+  }
+  #Price{
+    position: absolute;
+    font-size: 25px;
+    left:45%;
+  }
+  #Start{
+      position: absolute;
+      left:10%;
+      font-size: 20px;
+  }
+  #End{
+      position: absolute;
+      font-size: 20px;
+      left:20%;
+  }
+  #value{
+      position: absolute;
+      font-size: 30px;
+      left: 55%;
+  }
